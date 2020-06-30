@@ -17,6 +17,7 @@ header {
 /* inizio main */
 .main-container {
   margin: 5px 0;
+  /* cercando online ho trovato questa proprietà flow-root */
   display: flow-root;
 }
 
@@ -39,7 +40,16 @@ header {
   float: left;
   height: 450px;
   width: 29%;
+}
+
+.right-up, .right-down {
+  height: 49%;
   background-color: #CC87DA;
+}
+
+.right-up {
+  /* 2,3% perché non mi semrbava pixel perfect :D, altrimenti avrei dato 2% */
+  margin-bottom: 2.3%;
 }
 
 /* inizio footer */
