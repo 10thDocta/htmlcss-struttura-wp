@@ -3,3 +3,47 @@
   margin: 0;
   padding: 0;
 }
+
+.body-container {
+  margin: 10px;
+}
+
+/* inizio header */
+header {
+  height: 90px;
+  background-color: #FE3A;
+}
+
+/* inizio main */
+.main-container {
+  margin: 5px 0;
+  display: flow-root;
+}
+
+.column-left {
+  float: left;
+  height: 300px;
+  width: 29%;
+  background-color: #CC87DA;
+}
+
+.column-center {
+  float: left;
+  height: 450px;
+  width: 40%;
+  margin: 0 1%;
+  background-color: #730671;
+}
+
+.column-right {
+  float: left;
+  height: 450px;
+  width: 29%;
+  background-color: #CC87DA;
+}
+
+/* inizio footer */
+footer {
+  height: 50px;
+  background-color: #A4D2E1
+}
